@@ -9,11 +9,10 @@ function App() {
 
 
   return (<>
-    <div class="Body">
+    <div className="Body">
 
-
-      <Home/>
-      
+      {/*Here we are rendering the Home component which contains the main functionality of our app */}
+      <Home />
 
     </div>
     </>

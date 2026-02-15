@@ -1,9 +1,11 @@
+/* Here we are styling the components in the Home.jsx file */
 .Home{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+/* Here we are styling the input box and the add button */
 #input{
     width: 400px;
     padding :10px;
@@ -11,8 +13,9 @@
 
 }
 
+/* Here we are styling the add button */
 #btn{
-    width: 425px;
+   
     padding:10px;
     font-family:   Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
@@ -21,5 +24,24 @@
     cursor: pointer;
     border: 2px solid;
 
+}
 
+/* Here we are styling the todo items */
+.Todo{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-family:    'Trebuchet MS', sans-serif;
+    font-size: medium;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Here we are adding a line through the text when we click on the circle icon */
+.LineThrough{
+    text-decoration: line-through;
 }
